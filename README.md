@@ -36,3 +36,12 @@ Select two annotators and draw the bounding boxes provided by the two annotators
 ### 4 Compute the IOU between two annotations. 
 
 ![iou_view](img/iou.png)
+```
+ area_rec1 = (rec1_max_x - rec1_x) * (rec1_max_y - rec1_y)
+ area_rec2 = (rec2_max_x - rec2_x) * (rec2_max_y - rec2_y)
+ intersection = (x_right - x_left) * (y_bottom - y_top)
+```
+```
+IOU = intersection / (area_rec1 + area_rec2 - intersection)
+```
+
