@@ -35,3 +35,4 @@ Select two annotators and draw the bounding boxes provided by the two annotators
 
 ### 4 Compute the IOU between two annotations. 
 
+![iou_view](img/iou.png)
