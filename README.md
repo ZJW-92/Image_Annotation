@@ -10,7 +10,7 @@ For the image you have a corresponding .json file that contains all of the judge
 
 ![task-1.1 view](img/task1.1.png)
 
-### 1.2 Drawing annotations (bouding box coordinates) onto image
+### 1.2 Draw annotations (bouding box coordinates) onto image
 
 In .json file, the Rectangle() draws a rectangle whose dimensions are specified as its parameters xy, width, height. The xy=(x,y) parameter specifies the bottom and left rectangle coordinates.
 
@@ -27,7 +27,7 @@ In order to draw the bounding box using matplotlib.patches.Rectangle((x,  y), wi
 ![task-1.3 view](img/task1.3.png)
 
 
-### 3 Draw all boxes from two annotators onto an image. 
+### 3 Pick two annotators and draw all boxes onto an image. 
 
 Select two annotators and draw the bounding boxes provided by the two annotators on a single image. 
 
